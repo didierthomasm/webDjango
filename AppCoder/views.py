@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
-from .models import Curso, Profesor
-from .forms import CursoFormulario, ProfesorFormulario
+from .models import Medicina, Comestible, Limpieza
+from .forms import MedicinaFormulario, ComestibleFormulario, LimpiezaFormulario
 
 def inicio(request):
     return render(request, 'AppCoder/inicio.html')

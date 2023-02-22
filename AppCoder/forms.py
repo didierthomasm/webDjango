@@ -1,13 +1,19 @@
 from django import forms
 
-class CursoFormulario(forms.Form):
-
+class MedicinaFormulario(forms.Form):
     nombre = forms.CharField()
-    camada = forms.IntegerField()
+    presentacion = forms.CharField()
+    caducidad = forms.DateField()
+    existencia = forms.BooleanField()
 
-class ProfesorFormulario(forms.Form):
-
+class ComestibleFormulario(forms.Form):
     nombre = forms.CharField()
-    apellido = forms.CharField()
-    email = forms.EmailField()
-    profesion = forms.CharField()
+    tamano = forms.IntegerField()
+    caducidad = forms.DateField()
+    existencia = forms.BooleanField()
+
+class LimpiezaFormulario(forms.Form):
+    nombre = forms.CharField()
+    presentacion = forms.CharField()
+    tamano = forms.IntegerField()
+    existencia = forms.BooleanField()
