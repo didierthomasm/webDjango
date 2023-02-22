@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/tercera_entrega.iml" filepath="$PROJECT_DIR$/.idea/tercera_entrega.iml" />
-    </modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/webDjango.iml" filepath="$PROJECT_DIR$/.idea/webDjango
   </component>
 </project>
